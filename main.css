@@ -5,8 +5,8 @@
 }
 
 :root {
-  --hue: 230;
-  --accent-color: hsl(var(--hue), 100%, 40%);
+  --hue: 52;
+  --accent-color: hsl(var(--hue), 100%, 10%);
   --link-transition: 250ms 30ms cubic-bezier(0.2, 1, 0.2, 1);
 }
 
@@ -52,7 +52,7 @@ body {
 
 h1 {
   margin: 1rem 0;
-  color: hsl(var(--hue), 15%, 50%);
+  color: #000;
   font-size: 0.5rem;
   font-weight: 800;
   letter-spacing: -0.016rem;
@@ -93,7 +93,7 @@ a::before {
   right: -0.15rem;
   left: -0.1rem;
   z-index: -1;
-  background-color: hsl(var(--hue), 75%, 92%);
+  background-color: hsl(var(--hue), 75%, 88%);
   transform: translateY(0%) rotateZ(-3deg);
   transition: background-color var(--link-transition),
     transform var(--link-transition);
@@ -142,9 +142,8 @@ blockquote footer {
 hr {
   margin: 5rem -6vw 3rem;
   border: none;
-  height: 0.083rem;
-  background-color: hsl(var(--hue), 75%, 92%);
-  transform: rotateZ(-1.5deg);
+  height: 0.05rem;
+  background-color: hsl(var(--hue), 0%, 52%);
 }
 
 ul {
@@ -176,17 +175,17 @@ ul.inline-list li:not(:last-child)::after {
 
 ul.icons-list li {
   padding-left: 1rem;
-  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(223, 100%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>');
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(0, 0%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>');
   background-repeat: no-repeat;
   background-position: left center;
 }
 
 ul.icons-list li.github {
-  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(223, 100%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>');
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(0, 0%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>');
 }
 
 ul.icons-list li.email {
-  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(223, 100%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>');
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(0, 0%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>');
 }
 
 @media (min-width: 32rem) {
