@@ -177,7 +177,11 @@ ul.icons-list li {
   padding-left: 1rem;
   background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(0, 0%, 50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>');
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left 8px;
+}
+
+ul.icons-list li.check {
+  background-image: url("data:image/svg+xml,%3Csvg stroke='hsl(0, 0%, 50%)' fill='none' stroke-width='2' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 11.08V12a10 10 0 1 1-5.93-9.14'%3E%3C/path%3E%3Cpolyline points='22 4 12 14.01 9 11.01'%3E%3C/polyline%3E%3C/svg%3E");
 }
 
 ul.icons-list li.github {
@@ -197,8 +201,9 @@ ul.icons-list li.email {
     max-width: 18rem;
   }
 
-  ul.icons-list li {
-    background-position: left 55%;
+  ul.icons-list li,
+  ul.check-list li {
+    background-position: left 8px;
     background-size: 18px;
   }
 }
@@ -212,8 +217,9 @@ ul.icons-list li.email {
     max-width: 20rem;
   }
 
-  ul.icons-list li {
-    background-position: left 60%;
+  ul.icons-list li,
+  ul.check-list li {
+    background-position: left 8px;
     background-size: 22px;
   }
 }
