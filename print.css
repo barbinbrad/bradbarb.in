@@ -11,7 +11,7 @@ body {
   page-break-before: always;
 }
 
-.section:first-child > h1 {
+section:first-child > h1 {
   color: unset;
   font-weight: 600;
 }

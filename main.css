@@ -38,7 +38,7 @@ body {
   color: var(--accent-color);
 }
 
-.section {
+section {
   max-width: 16rem;
   margin: 0 auto;
 }
@@ -197,7 +197,7 @@ ul.icons-list li.email {
     font-size: 28px;
   }
 
-  .section {
+  section {
     max-width: 18rem;
   }
 
@@ -213,7 +213,7 @@ ul.icons-list li.email {
     font-size: 32px;
   }
 
-  .section {
+  section {
     max-width: 20rem;
   }
 
